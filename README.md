@@ -14,3 +14,5 @@ Joins loan details with aggregated payment data.
 Summarizes loan charges, outstanding balances, and PTP amounts by due date.
 
 This query is useful for loan portfolio analysis, collections strategy optimization, and customer repayment behavior tracking.
+
+![image](https://github.com/user-attachments/assets/f8457880-523c-4863-921b-1bfc8c8e2aee)
