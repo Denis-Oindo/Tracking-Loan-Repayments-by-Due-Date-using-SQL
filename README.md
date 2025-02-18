@@ -1,14 +1,16 @@
-This SQL script extracts and aggregates loan payment data to provide insights into customer payment behavior. It consists of three main components:
+This SQL script extracts and aggregates loan payment data to provide insights into customer payment behavior. 
+It consists of three main components:
 
-Loan Data Extraction
-
+1. Loan Data Extraction
 Retrieves distinct loan details, including client type, loan status, and payment classification.
 Extracts key date/time attributes (e.g., closed hour, day of the week).
-Payment Aggregation
 
+2. Payment Aggregation
 Computes the total promised-to-pay (PTP) amounts from loan payment data.
 Ensures accurate aggregation of payments made within the promise period.
-Final Data Aggregation
 
+3. Final Data Aggregation
 Joins loan details with aggregated payment data.
 Summarizes loan charges, outstanding balances, and PTP amounts by due date.
+
+This query is useful for loan portfolio analysis, collections strategy optimization, and customer repayment behavior tracking.
